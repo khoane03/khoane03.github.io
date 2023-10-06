@@ -1,0 +1,144 @@
+/* for Tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+    .main {
+        width: 90%;
+        background-color: aliceblue;
+        border: none;
+        border-radius: 5px;
+    }
+    html {
+        font-size: 18px;
+    }
+
+    .main_header {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 2px solid;
+
+    }
+
+    .hide {
+        display: none;
+
+    }
+
+    .hea_info {
+        margin-top: 40px;
+    }
+
+    .hea_profile,
+    .hea_info {
+        border: none;
+    }
+    /* css các box thành 2 col */
+    .container {
+        display: grid;
+        grid-template-columns: 55% 40%;
+        column-gap: 5%;
+    }
+
+    .item1 {
+        grid-row: 1;
+    }
+
+    .item2 {
+        grid-row: 1/span 2;
+    }
+
+    .hea_info,
+    .main--content,
+    .main--target,
+    .main--work,
+    .main--experience,
+    .main__skill,
+    .main--hobby,
+    .main--tools,
+    .main--advantage {
+
+        border-bottom: none;
+        font-size: 1rem;
+    }
+
+    .box {
+        margin-top: 10px;
+    }
+
+    .title {
+        border-bottom: 1px solid;
+        text-align: start;
+
+    }
+}
+/*For Computer  */
+@media (min-width: 992px) {
+    .main {
+        width: 50%;
+        background-color: #ccc;
+        border: none;
+        border-radius: 5px;
+    }
+    html {
+        font-size: 18px;
+    }
+
+    .main_header {
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 2px solid;
+
+    }
+    .hea-ava {
+        border: 1px solid;
+    }
+    .hide {
+        display: none;
+
+    }
+
+    .hea_info {
+        margin-top: 40px;
+    }
+
+    .hea_profile,
+    .hea_info {
+        border: none;
+    }
+ /* css các box thành 2 col */
+    .container {
+        display: grid;
+        grid-template-columns: 55% 40%;
+        column-gap: 5%;
+    }
+
+    .item1 {
+        grid-row: 1;
+    }
+
+    .item2 {
+        grid-row: 1/span 2;
+    }
+
+    .hea_info,
+    .main--content,
+    .main--target,
+    .main--work,
+    .main--experience,
+    .main__skill,
+    .main--hobby,
+    .main--tools,
+    .main--advantage {
+
+        border-bottom: none;
+        font-size: 0.9rem;
+    }
+
+    .box {
+        margin-top: 10px;
+    }
+
+    .title {
+        border-bottom: 1px solid;
+        text-align: start;
+
+    }
+}

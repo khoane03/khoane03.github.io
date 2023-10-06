@@ -1,0 +1,140 @@
+/* For Mobile */
+/* css cho all page */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+/* css base */
+.list-style {
+    text-decoration: none;
+    color: #3875d1;
+}
+
+.li-style {
+    list-style: none !important;
+   
+}
+.span-style{
+    color: chocolate;
+}
+.contents{
+    margin-top: 15px;
+}
+/* css cho body */
+.main {
+    width: 90%;
+    background-color: beige;
+    margin: 20px auto;
+    border: 2px solid black;
+    box-shadow: 0 0 10px;
+}
+
+/* css cho header */
+.hea_profile {
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.hea-ava {
+    margin: 10px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    width: 100px;
+
+}
+
+.profile-text {
+    margin: auto;
+}
+
+.text--name {
+    padding-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.text--content {
+    font-size: 0.7rem;
+    padding-bottom: 5px;
+}
+
+.text--icon a {
+    color: brown;
+    text-decoration: none;
+}
+
+.hea_info,
+.main--content,
+.main--target,
+.main--work,
+.main--experience,
+.main__skill,
+.main--hobby,
+.main--tools,
+.main--advantage
+ {
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+}
+
+.title {
+    padding: 10px 0;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header--list {
+    list-style: none;
+
+}
+
+.fa-solid {
+    padding-right: 10px;
+    color: brown;
+}
+
+/*css cho all box  */
+
+
+.box {
+    display: flex;
+
+}
+
+.main--date,
+.main--date2 {
+    flex: 2.5;
+    position: relative;
+}
+
+.main--university,
+.main--course {
+    flex: 7.5;
+}
+
+
+.fa-arrow-down {
+
+    position: absolute;
+    top: 25px;
+    left: 10px;
+
+}
+.fa-check{
+    color: green ;
+}
+.main--today {
+    position: absolute;
+    top: 48px;
+    left: -8px;
+}
